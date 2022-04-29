@@ -1,0 +1,130 @@
+body{
+    background-color: #282D35;
+}
+.App-container{
+    background-color: #21222A;
+    margin: auto;
+    width: 300px;
+    /* padding: 10px; */
+}
+
+
+.profile-pic{
+    /* border: 1px solid #ddd; */
+    /* border-radius: 4px; */
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 300px;
+}
+.profile-content{
+    text-align: center;
+    color: #d9f7ff;
+    margin-top: 20px;
+}
+.profile-content>h4{
+    margin-top: -19px;
+    color: rgb(155, 103, 35);
+}
+.profile-content>p{
+    margin-top: -15px;
+    font-size: small;
+}
+
+/* for mail_button */
+.mail-button>button{
+    
+    margin: 10px;
+    margin-left: 20px;
+    font-size: medium;
+    padding: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+    border-radius: 10px;
+    border:  #21222A;
+}
+.material-icons{
+   font-size: 16px;
+   vertical-align: middle;
+   margin-bottom: 3px;
+}
+ /* for linkedinbutton */
+.in-button{
+    margin: 10px;
+    font-size: medium;
+    padding: 5px;
+    padding-left: 20px;
+    padding-right: 20px;
+    background-color: #4b65fd;
+    border-radius: 10px;
+    border:  #21222A;
+}
+
+.header-button{
+    width: 297px;
+    display: flex;
+    align-content: center;
+    /* border: 3px solid rgb(141, 255, 141); */
+}
+
+.content-div{
+    padding: 8%;
+    padding-top: 0%;
+    font-size: medium;
+    color: aliceblue;
+}
+.content-div>p{
+    margin-top: -14px;
+    font-size: smaller;
+}
+
+
+/* .fa{
+    padding: 5px;
+   font-size: 30px;
+   width: 50px;
+   text-align: center;
+   text-decoration: none;
+   margin: 5px 2px;
+ } */
+
+ .footer{
+    margin: auto;
+    /* width: 50%; */
+
+    background-color: #0c0c0f;
+    /* border: 3px solid green; */
+    padding: 1px;
+
+ }
+ .footer>p{
+    text-align:center;
+
+ }
+ .fa-facebook {
+     padding: 8px; 
+     background: #8a8181;
+     color: #0c0c0f;
+     border-radius: 5px;
+ } 
+ .fa-linkedin {
+    padding: 8px; 
+     background: #8a8181;
+     color: #0c0c0f;
+     border-radius: 5px;
+     margin-left: 15px;
+} 
+.fa-youtube {
+    padding: 8px; 
+     background: #8a8181;
+     color: #0c0c0f;
+     border-radius: 5px;
+     margin-left: 15px;
+} 
+.fa-github {
+    padding: 8px; 
+    background: #8a8181;
+    color: #0c0c0f;
+    border-radius: 5px;
+    margin-left: 15px;
+} 
